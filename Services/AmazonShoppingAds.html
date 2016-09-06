@@ -1,0 +1,26 @@
+<html>
+	<body>
+		<script type="text/javascript">
+			function getParameterByName(name) {
+    				var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    				return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+				}
+			
+			// alert(getParameterByName("query"));
+			
+			amzn_assoc_placement = "adunit0";
+			amzn_assoc_search_bar = "true";
+			amzn_assoc_tracking_id = "akamojo-20";
+			amzn_assoc_search_bar_position = "top";
+			amzn_assoc_ad_mode = "search";
+			amzn_assoc_ad_type = "smart";
+			amzn_assoc_marketplace = "amazon";
+			amzn_assoc_region = "US";
+			amzn_assoc_title = "";
+			amzn_assoc_default_search_phrase = getParameterByName("query");
+			amzn_assoc_default_category = "All";
+			amzn_assoc_linkid = "c0bcb54a00901248fffb90e70433df8b";
+		</script>
+		<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+	</body>
+</html>
